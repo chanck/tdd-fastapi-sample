@@ -14,45 +14,25 @@ This is a template for developing RESTAPI using Python FastAPI framework. More d
 .
 ├── .cfignore
 ├── .gitignore
-├── .pytest_cache
-│   ├── .gitignore
-│   ├── CACHEDIR.TAG
-│   ├── README.md
-│   └── v
-│       └── cache
-│           ├── lastfailed
-│           ├── nodeids
-│           └── stepwise
 ├── README.md
 ├── docker-compose.yml
 └── src
-    ├── .DS_Store
     ├── Dockerfile
     ├── Procfile
     ├── app
     │   ├── .env
     │   ├── .env_sample
     │   ├── __init__.py
-    │   ├── __pycache__
-    │   │   ├── __init__.cpython-37.pyc
-    │   │   └── main.cpython-37.pyc
     │   ├── dependencies.py
     │   ├── main.py
     │   └── routers
     │       ├── __init__.py
-    │       ├── __pycache__
-    │       │   ├── __init__.cpython-37.pyc
-    │       │   └── sample.cpython-37.pyc
     │       └── sample.py
     ├── manifest.yml
     ├── requirements.txt
     ├── runtime.txt
     └── tests
         ├── __init__.py
-        ├── __pycache__
-        │   ├── __init__.cpython-37.pyc
-        │   ├── conftest.cpython-37-pytest-6.2.3.pyc
-        │   └── test_sample.cpython-37-pytest-6.2.3.pyc
         ├── conftest.py
         └── test_sample.py
 </pre>
