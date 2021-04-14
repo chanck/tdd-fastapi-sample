@@ -1,0 +1,10 @@
+---
+applications:
+ - name: fastapi-sample
+   instances: 1
+   timeout: 180
+   memory: 1024M
+   disk_quota: 1024M
+   #command: uvicorn app.main:app --reload
+   command: uvicorn app.main:app --host=0.0.0.0 --port=${PORT:-5000}
+   health-check-type: process   
