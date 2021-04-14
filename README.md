@@ -3,8 +3,8 @@
 This is a template for developing RESTAPI using Python FastAPI framework. More details about FastAPI framework can be found in [FastAPI Framework](https://fastapi.tiangolo.com). 
 
 # 1. Clone the repo & setup conda virtual environment
-* The repo can be clone using <code>git clone repo-url</code>
-* Change directory to the clone repo with <code>cd repo-dir</code>
+* The repo can be clone using <code>git clone https://github.com/chanck/tdd-fastapi-sample.git</code>
+* Change directory to the clone repo with <code>cd tdd-fastapi-sample</code>
 * Create local python conda virtual environment with <code>conda create -n fastapi-deploy python=3.7</code>
 * Activate the newly created conda environment with <code>conda activate fastapi-deploy</code>
 * Install the required python packages with <code>pip install -r src/requirements.txt</code> 
