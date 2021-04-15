@@ -21,9 +21,10 @@ async def get_query_token(token: str):
 from fastapi import Depends, HTTPException, Security
 from fastapi.security import APIKeyHeader
 from starlette import status
+import os
 
-API_KEY = "qwerasdf1234"
-API_KEY_NAME = "X-API-KEY"
+API_KEY = os.getenv("API_KEY") or "qwerasdf1234"
+API_KEY_NAME = os.getenv("API_KEY_NAME") or "X-API-KEY" 
 
 api_key_header_auth = APIKeyHeader(name=API_KEY_NAME, auto_error=True)
 
